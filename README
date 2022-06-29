@@ -14,7 +14,7 @@ The architect of the project is very simple.
 
 LocationManager.swift contains the methods to request user location using 
 CoreLocation Framework and the ViewController will collect locations and decide whether
-the user has moved for more than 10 metres.
+the user has moved for more than 10 metres, then display the result to user.
 
 The location data is passed to viewcontroller using closure and delegate, I belive it is
 a neat way and the code would be very easy to read.
