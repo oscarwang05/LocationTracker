@@ -1,0 +1,24 @@
+Project Name: LocationTracker
+Author: Yan Wang
+
+This is a practise project. Please feel free to download and use if you need.
+------------------------------------------------------------------------------------
+Simply download the files and open LocationTracker.xcodeproj and run using Xcode
+------------------------------------------------------------------------------------
+
+The idea is to request real time user location and detect user movement, each time the 
+user moves at least 10m, a message will be displayed "You have moved <number of metres>
+metres from your previous position.
+
+The architect of the project is very simple.
+
+LocationManager.swift contains the methods to request user location using 
+CoreLocation Framework and the ViewController will collect locations and decide whether
+the user has moved for more than 10 metres.
+
+The location data is passed to viewcontroller using closure and delegate, I belive it is
+a neat way and the code would be very easy to read.
+
+The whole project took about 3 hours of coding. In addition, I also spent some extra time
+trying to make the UI looks a bit better, after a few attempts I decided to stay the simply
+UI and it may need improvement in the future.
